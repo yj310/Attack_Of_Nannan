@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{853e77f0-06b3-43ef-b8dd-72a79a7721f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{a1d5597e-2b6c-4b77-9285-e3fdd531d761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{2a488e9e-b21c-4ed1-92d0-6bd4c5de0153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Stage">
+      <UniqueIdentifier>{6dbf78e0-f500-4828-948c-344d0e5db3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stage">
+      <UniqueIdentifier>{61a5745a-b842-41a7-b995-203a7263958b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\not use">
+      <UniqueIdentifier>{16e7936b-040a-4dc3-8064-10f83e8d7370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{2f5c40b8-cbec-45e2-863c-5d7e0983838e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\background">
+      <UniqueIdentifier>{3603bd45-5a51-4b57-83db-98c9bfc351b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{6bc5d2a7-40ff-4b46-94dd-30f997b2a155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Background">
+      <UniqueIdentifier>{200cbd07-eebe-4046-ad18-3823a32d48c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Bullet">
+      <UniqueIdentifier>{05281c10-1611-4a84-88d6-906c85170258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Bullet">
+      <UniqueIdentifier>{ec735445-e3e9-4cf0-b617-4bef8cb29abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Enemy">
+      <UniqueIdentifier>{79210126-128d-43ac-8c06-444a23796f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\Enemy">
+      <UniqueIdentifier>{a8673e57-7b27-4451-886e-63a1a50b6ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object\Item">
+      <UniqueIdentifier>{4fbf4166-3d7a-4f43-9df1-2d840c7e114a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Object\effect">
+      <UniqueIdentifier>{0ee231f1-7272-47ff-8920-45333f22e8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object\effect">
+      <UniqueIdentifier>{033e2470-16a0-43b1-b2c0-b57f1764ec01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item">
+      <UniqueIdentifier>{882a9a11-4926-4420-bca3-7286d71056fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="input_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_manager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="title_stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\not use</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\not use</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\not use</Filter>
+    </ClInclude>
+    <ClInclude Include="first_stage_background.h">
+      <Filter>Header Files\Object\background</Filter>
+    </ClInclude>
+    <ClInclude Include="first_game_stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Header Files\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="player_bullet_01.h">
+      <Filter>Header Files\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="game_system.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="math_util.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="game_stage_ui.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="result_texture.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Header Files\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="player_bullet_02.h">
+      <Filter>Header Files\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="rank_stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="game_over.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="second_stage_background.h">
+      <Filter>Header Files\Object\background</Filter>
+    </ClInclude>
+    <ClInclude Include="manual_stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="waiting.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="shield.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="second_game_stage.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\not use</Filter>
+    </ClInclude>
+    <ClInclude Include="bossA.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bossB.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_bullet.h">
+      <Filter>Header Files\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bossC.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bossD.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyA.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyB.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyC.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyD.h">
+      <Filter>Header Files\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKsound.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKwavefile.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="boss_bullet.h">
+      <Filter>Header Files\Object\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="fading.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEffect.h">
+      <Filter>Header Files\Object\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_explosion.h">
+      <Filter>Header Files\Object\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_frame.h">
+      <Filter>Header Files\Object\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial.h">
+      <Filter>Header Files\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="item_1.h">
+      <Filter>Header Files\Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_2.h">
+      <Filter>Header Files\Object\Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="title_stage.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_manager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="first_stage_background.cpp">
+      <Filter>Source Files\Object\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="first_game_stage.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player_bullet_01.cpp">
+      <Filter>Source Files\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="game_system.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="math_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_stage_ui.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="result_texture.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="player_bulley_02.cpp">
+      <Filter>Source Files\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="rank_stage.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_over.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="boss_bullet.cpp">
+      <Filter>Source Files\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="manual_stage.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="waiting.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="shield.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="second_game_stage.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="second_stage_background.cpp">
+      <Filter>Source Files\Object\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="bossA.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bossB.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_bullet.cpp">
+      <Filter>Source Files\Object\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="bossC.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bossD.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyA.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyB.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyC.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyD.cpp">
+      <Filter>Source Files\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKsound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKwavefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fadeing.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_explosion.cpp">
+      <Filter>Source Files\Object\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>Source Files\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="item_1.cpp">
+      <Filter>Source Files\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_2.cpp">
+      <Filter>Source Files\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Header Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Header Files\Resource Files</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>Header Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
